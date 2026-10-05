@@ -28,7 +28,7 @@ from aiogram.types import (
     PreCheckoutQuery,
 )
 # --- Конфигурация ---
-API_TOKEN = '8746084180:AAFCv7Gq7PT50k3uXlur-UR5st7ElMVOpG0'
+API_TOKEN = '8070912034:AAFKSa5KM8OkPuZaQLccdIkaiNwaUhdJ4_Q'
 DB_PATH = os.environ.get('DB_PATH', 'bot_data.db') # Путь к файлу базы данных SQLite (можно переопределить переменной окружения DB_PATH)
 ADMIN_IDS = [5152638249, 7895619658] # СПИСОК ID АДМИНИСТРАТОРОВ
 
