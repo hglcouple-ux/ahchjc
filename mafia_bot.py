@@ -21,7 +21,7 @@ from telegram.error import TelegramError
 from telegram.request import HTTPXRequest
 
 # ============ НАСТРОЙКИ ============
-BOT_TOKEN = "8746084180:AAHp-bQxsImdXK3oVMPSsu8fvJdNmMIIzC8"
+BOT_TOKEN = "8764996048:AAGZtoWwEjlT8trYjV7FxYM-hq5SWKAhZ9k"
 
 # Путь к БАЗЕ ДАННЫХ ЭКОНОМИЧЕСКОГО БОТА (app.py).
 # ВАЖНО: должно указывать на тот же самый файл bot_data.db, который использует
