@@ -3932,7 +3932,7 @@ async def command_casino_handler(message: Message, command: CommandObject = None
     if user.get('balance_normal', 0) < amount:
         await message.answer(f"Нужно: <b>{amount:,}</b>, у вас: {user.get('balance_normal', 0):,}", parse_mode="HTML"); return
     
-    casino_win_chance = 0.30 + get_active_title_bonuses(user).get('casino_win_bonus', 0)
+    casino_win_chance = 0.40 + get_active_title_bonuses(user).get('casino_win_bonus', 0)
     # Базовый шанс выигрыша 30%, титул Crypto увеличивает его.
     if random.random() < casino_win_chance:
         win_multiplier = random.uniform(1.0, 2.0) # Множитель от 1.0 до 2.0
