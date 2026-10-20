@@ -1354,7 +1354,7 @@ async def get_pass_info(user_id: int) -> str:
             parts.append(f"{seconds} с")
         return ' '.join(parts)
 
-    season_end = datetime.datetime(2026, 10, 20, 15, 0)
+    season_end = datetime.datetime(2026, 10, 21, 15, 0)
     now = datetime.datetime.now()
     if now < season_end:
         remaining = format_timedelta(season_end - now)
